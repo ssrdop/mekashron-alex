@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mekashron Login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header__logo">LOGO</div>
+        <div class="header__menu">
+            <ul class="menu">
+                <li class="menu__item"><a class="menu__item-link" href="#">Menu 1</a></li>
+                <li class="menu__item"><a class="menu__item-link" href="#">Menu 2</a></li>
+                <li class="menu__item"><a class="menu__item-link" href="#">Menu 3</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="result-wrapper">
+            <div id="result" class="result"></div>
+        </div>
+
+        <div id="login-form-wrapper" class="login-form-wrapper">
+            <div class="login-form">
+                <form id="login-form">
+                    <div class="login-form__inputs">
+                        <div class="form-group login-form_input">
+                            <label class="login-form__label" for="username">Username:</label>
+                            <input  type="text" name="login" class="form-control" id="username">
+                        </div>
+                        <div class="form-group login-form_input">
+                            <label class="login-form__label" for="password">Password:</label>
+                            <input  type="password" name="password" class="form-control" id="password">
+                        </div>
+                    </div>
+                    <div class="login-form__submit-wrapper">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<script type="module" src="index.js"></script>
+</body>
+</html>

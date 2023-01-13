@@ -1,0 +1,92 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+.login-form-wrapper{
+    display: flex;
+}
+
+.login-form{
+    width: 400px;
+    border: 1px #CECECE solid;
+    padding: 20px;
+}
+
+.login-form__label {
+    font-weight: bold;
+}
+.login-form_input:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.login-form__inputs {
+    margin-bottom: 20px;
+}
+
+.login-form__submit-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    margin-bottom: 100px;
+}
+
+.header__logo {
+    margin-right: 100px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.menu__item {
+    border-right:1px solid #bbb;
+}
+
+.menu__item:last-child {
+    border-right: none;
+}
+
+.menu__item-link {
+    font-weight: bold;
+    display: block;
+    color: #575757;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.login-form-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.result-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result {
+    padding: 40px;
+    border: 1px #CECECE solid;
+    color: #fff;
+    display: none;
+}
+
+.result--error {
+    background-color: #C82333;
+}
+
+.result--success{
+    background-color: #218838;
+}
